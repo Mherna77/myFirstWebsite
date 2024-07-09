@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UniBridge Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header class="home-header">
+            
+            <div class="nav-container">
+                <img src="Images/community.png" alt="Community Logo" class="icon-logo">
+                <nav class="navbar">
+                    <h1 id="navbar-logo">UNIBRIDGE</h1>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-links">Home</a></li>
+                        <li><a href="about.html" class="nav-links">About</a></li>
+                        <li><a href="events.html" class="nav-links">Events</a></li>
+                        <li><a href="resources.html" class="nav-links">Resources</a></li>
+                        <li><a href="contact.html" class="nav-links">Contact</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </nav>
+            </div>
+
+            <section class="welcome-section">
+                <div class="welcome-content">
+                    <h1>Welcome to UniBridge</h1>
+                    <p>We empower first-generation students and their families with tailored guidance, support, and resources for confident journeys to higher education.</p>
+                    <a href="about.html"><button>Learn More</button></a>
+                </div>
+            </section>
+        </header>
+
+        <section class="section">    
+
+            <h1 >Join our Community</h1>
+               <p id="statement">Explore Opportunities and Learn, Grow, Succeed.</p>
+
+               <div class="image-container">
+                <button id="prevBtn" class="image-btn left"><i class="fa fa-chevron-left"></i></button>
+                <div class="carousel">
+                    <ul class="images" id="imageSlider">
+                        <li><img src="Images/firstgen.jpg" alt="First-Gen" class="section-image"></li>
+                        <li><img src="Images/homepage1.jpg" alt="Explore Opportunities" class="section-image"></li>
+                        <li><img src="Images/homepage2.jpg" alt="Networking Events" class="section-image"></li>
+                        <li><img src="Images/proudgen.jpg" alt="Success Students" class="section-image"></li>
+                    </ul>
+                </div>
+                <button id="nextBtn" class="image-btn right"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            
+
+            <div class = "images-nav">
+                <div class = "images-nav-item"></div>
+                <div class = "images-nav-item"></div>
+                <div class = "images-nav-item"></div>
+                <div class = "images-nav-item"></div>
+
+            </div>
+
+            <div class="row">
+                <div class = "section-col">
+                    <h3>Events and Workshops</h3>
+                    <p>Our platform offers a diverse range of events, workshops, and seminars tailored to empower first-generation students and their families with essential tools and guidance for navigating the path to college success, including vital topics such as financial aid, college resources, and academic support.</p>
+                </div>
+
+                <div class = "section-col">
+                    <h3>Unlimited Resouces</h3>
+                    <p>Our resources offer a diverse range of university-provided materials, available in English and Spanish, to empower first-generation students with essential tools for academic success. From college success guides to vital educational materials, we're here to support every student on their path to excellence.</p>
+                </div>
+
+                <div class="section-col">
+                    <h3>Community Support</h3>
+                    <p>Our welcoming community offers invaluable support to first-generation students, instilling confidence and easing the transition into college life by providing guidance through any challenges they may face.</p>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section class="quote-section">
+            <h2 class="quote-title">Quotes of the Day</h2>
+            <div class="quote-box" id="quote-container"></div>
+            <button id="refreshQuoteBtn">Refresh Quote</button>
+        </section>
+        
+
+    <footer>
+        <p>&copy; 2024 UniBridge. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

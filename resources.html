@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>UniBridge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+        <header class="header">
+            <div class="nav-container">
+                <img src="Images/community.png" alt="Community Logo" class="icon-logo">
+                <nav class="navbar">
+                    <h1 id="navbar-logo">UNIBRIDGE</h1>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-links">Home</a></li>
+                        <li><a href="about.html" class="nav-links">About</a></li>
+                        <li><a href="events.html" class="nav-links">Events</a></li>
+                        <li><a href="resources.html" class="nav-links">Resources</a></li>
+                        <li><a href="contact.html" class="nav-links">Contact</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="rectangle-box">
+                <h2>Resources</h2>
+            </div>
+        
+            <div class="resource-container">
+                <img src="Images/resource1.jpg" alt="Success" class="centered-image">
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-btn"><b>First Gen College Tips</b><i class="fas fa-plus"></i></button>
+                    <div class="accordion-content">
+                        <p><a href="https://www.youtube.com/watch?v=cf-8-1iqzsE" target="_blank" >Navigating College as a First-Gen Student</a> is a video in which Daniela Padilla from the Early Academic Outreach Program (EAOP) at UC San Diego shares tips for first-generation college students, including navigating the transition from high school to college life, how to advocate for yourself, how to find community, and more (12:38).</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn"><b>Financial Aid Guide</b><i class="fas fa-plus"></i></button>
+                    <div class="accordion-content">
+                        <p><a href="https://youtu.be/6U91VRMGyt0" target="_blank" >Finaicial Aid GuideBook</a> is a video that help first-time students with their financial aid availability. Here you will explain more about financial aid and steps towards completing your first application. </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn"><b>Developing Growth Mindset</b><i class="fas fa-plus"></i></button>
+                    <div class="accordion-content">
+                        <p><a href="https://www.youtube.com/watch?v=rUJkbWNnNy4" target="_blank" >Developing a Growth Mindset </a> is a Miniclip featuring tips on how students can switch on their growth mindset (4:51).</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn"><b>Goals for Success</b><i class="fas fa-plus"></i></button>
+                    <div class="accordion-content">
+                        <p><a href="https://www.youtube.com/watch?v=Qiqz8f7g1qA" target="_blank" >Success in Life</a> is a video that showcases how to create your own academic goals. Having goals in college is an important part of college. Using methods like SMART goals you will be able to visualize your success in college. </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn"><b>Utilizing College Resources</b><i class="fas fa-plus"></i></button>
+                    <div class="accordion-content">
+                        <p><a href="https://www.youtube.com/watch?v=A9DtkqWMDc0" target="_blank" >Utilizing College Resources</a> is a YouTube video that talks about counseling options, student health services, fitness choices, academic health, and more (12:21).</p>
+                    </div>
+                </div>
+                <div class="accordion-item-ends">
+                    <button class="accordion-btn"><b>More Coming Soon !</b></button>
+                </div>
+            </div>
+
+            <section class="wiki-section">
+                <div class="rectangle-box">
+                    <h2>Wikipedia Search</h2>
+                </div>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Enter your search term">
+                    <button id="searchBtn">Search</button>
+                </div>
+                <div class="search-results" id="searchResults"></div>
+            </section>
+            
+
+            <div class="resource-container">
+                <h2>Lets have fun: Trivia Game</h2>
+                <div class="trivia-box" id="trivia-container"></div>
+                <p id="feedback"></p>
+                <p id="score">Score: 0</p>
+            </div>
+            
+
+        </main>
+        
+        
+    <footer>
+        <p>&copy; 2024 UniBridge. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

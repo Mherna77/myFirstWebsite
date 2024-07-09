@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>UniBridge</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+        <header class="header">
+            <div class="nav-container">
+                <img src="Images/community.png" alt="Community Logo" class="icon-logo">
+                <nav class="navbar">
+                    <h1 id="navbar-logo">UNIBRIDGE</h1>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-links">Home</a></li>
+                        <li><a href="about.html" class="nav-links">About</a></li>
+                        <li><a href="events.html" class="nav-links">Events</a></li>
+                        <li><a href="resources.html" class="nav-links">Resources</a></li>
+                        <li><a href="contact.html" class="nav-links">Contact</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="rectangle-box">
+                <h2>Events</h2>
+            </div>
+        <section class="event-section">  
+            <div class="events-container">
+                <div class="event-card">
+                    <h3>Scholarships WorkShop</h3>
+                    <img src="Images/Scholarship1.jpg" alt="Scholarships" class="section-image">
+                    <p>Date: April 15, 2024</p>
+                    <p>Time: 10:00 AM - 3:00 PM</p>
+                    <p>Join us for our Scholarships Workshops where representatives from various colleges and universities will be available to provide information and answer questions about admissions, programs, and financial aid opportunities.</p>
+                    <p>Location: City Convention Center</p>
+                    <button class="sign-up-btn">Sign Up</button>
+                </div>
+                <div class="event-card">
+                    <h3>Financial Aid Workshop</h3>
+                    <img src="Images/financial.jpg" alt="Finacial Aid" class="section-image">
+                    <p>Date: May 5, 2024</p>
+                    <p>Time: 6:00 PM - 8:00 PM</p>
+                    <p>Description: Attend our Financial Aid Workshop to learn about different types of financial aid available for college, including scholarships, grants, and loans. Experts will be on hand to provide guidance and answer questions.</p>
+                    <p>Location: Community Library</p>
+                    <button class="sign-up-btn">Sign Up</button>
+                </div>
+                <div class="event-card">
+                    <h3>College Prep Seminar</h3>
+                    <img src="Images/first.jpg" alt="College Prep" class="section-image">
+                    <p>Date: June 10, 2024</p>
+                    <p>Time: 9:00 AM - 12:00 PM</p>
+                    <p>Description: Get ready for college with our College Prep Seminar! This interactive session will cover topics such as college applications, essay writing, and interview preparation. Don't miss this opportunity to jumpstart your college journey.</p>
+                    <p>Location: High School Auditorium</p>
+                    <button class="sign-up-btn">Sign Up</button>
+                    </div>
+                </div>
+        </section>
+        </main>
+
+    <footer>
+        <p>&copy; 2024 UniBridge. All rights reserved.</p>
+    </footer>
+
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Sign Up</h2>
+          <form id="signup-form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Thank You Modal -->
+      <div id="thankyou-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Thank You for Signing Up!</h2>
+        </div>
+      </div>
+</body>
+</html>
